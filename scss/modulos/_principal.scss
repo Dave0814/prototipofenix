@@ -1,0 +1,27 @@
+$fuente_principal:  'Open Sans', sans-serif; ;
+
+$colorPrincipal:  #d7a2ff;
+$colorNav:#E2CEE5;
+$colorCarrusel: #c59fcb;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+      
+    
+}
+
+
+main {
+    background-color: $colorNav;
+}

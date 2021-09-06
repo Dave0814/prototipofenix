@@ -1,0 +1,116 @@
+#main .carousel-item img {
+  position: relative;
+  padding: 0%;
+  margin: 0%;
+  bottom: 0%;
+  justify-items: start;
+  //max-width: 100%;
+  max-height: 100vh;
+  background-color: $colorPrincipal;
+  object-fit: cover;
+    
+  
+}
+ .path {
+  position: relative;
+  bottom: 160px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .row{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+  }}
+ /* .bg-primary {
+  color: black !important;
+   background-color: purple !important; 
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  font-size: 2.5rem;
+
+  #bt2 .bg-primary {
+    background-color: #8ae0db !important;
+  } 
+
+}} */
+
+  .overlay{
+    font-family: $fuente_principal;
+    font-size: 20px;
+    position: absolute;
+    top: 0 ;
+    bottom: 0 ;
+    left: 0 ;
+    right: 0 ;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+      .container {
+
+        position:absolute;
+        top: 400px;
+        right: 400px;
+        //bottom: 60px;
+        max-width: 80%;
+        font-size: 2.5vw;
+        justify-content: center;
+        text-align: justify;
+        color: #A9E9A4 ;
+        bottom:  250px;
+        
+        
+        /* .bg-primary{
+          color: black;
+          //background-color: $colorCarrusel !important;
+          height: 50px;
+          //justify-content: center;
+          //align-items: center;
+          //text-align: center;
+        } */
+      }
+  }
+    // .overlay .bt1{
+    
+    
+    //   background-color: #A9E9A4 !important;
+    // position: relative;
+    // //right: 45px;
+    // }
+  
+  
+  #path .bt2{
+    background-color: #8ae0db !important;
+    height:  5vh;
+    font-size: 2rem;
+  }
+
+  #path .bt3 {
+    background-color: #00afcf !important;
+    height:  5vh;
+    font-size: 2rem;
+  }
+  #path .bt4 {
+    background-color: #8ae0db !important;
+    height:  5vh;
+    font-size: 2rem;
+  }
+
+ 
+  @media screen and (max-width:990px ) {
+    #path {
+      padding: 30%;
+    }
+    
+  }
+   @media screen and (max-width : 840px) {
+    #path{
+
+      color: none;
+      display: none !important;
+    }
+  
+  }
