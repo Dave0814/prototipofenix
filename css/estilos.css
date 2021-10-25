@@ -1,0 +1,28 @@
+* {
+    font-family: tradesmithregular;
+}
+
+.header{
+    background-color: #ffffff;
+
+}
+
+.navbar-brand.logo img{
+    width: 13rem;
+}
+
+#navbarNavDropdown{
+    flex-grow: 0;
+}
+
+#galeria {
+    border: .1rem solid black;
+}
+
+.seccion-agenda{
+    border: 0.25rem solid black;
+}
+
+.logos_redes {
+    width: 70px;
+}
