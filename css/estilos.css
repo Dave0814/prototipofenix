@@ -3,7 +3,7 @@
 }
 
 .header{
-    background-color: #ffffff;
+    background-color: ghostwhite;
 
 }
 
@@ -18,7 +18,14 @@
 #galeria {
     border: .1rem solid black;
 }
-
+.seccion-nosotros{
+    text-align: center;
+}
+.nosotros{
+    font-size: 3.5rem;
+    margin: 1rem ;
+    font-weight: 100;
+}
 .seccion-agenda{
     border: 0.25rem solid black;
 }
